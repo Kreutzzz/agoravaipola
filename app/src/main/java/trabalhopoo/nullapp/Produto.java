@@ -6,10 +6,12 @@ public class Produto {
     int quantidade;
     float preco_unitario;
     String descricao;
+    int imagem;
 
-    public Produto(String nome, String descricao) {
+    public Produto(String nome, String descricao, int imagem) {
         this.nome = nome;
         this.descricao = descricao;
+        this.imagem=imagem;
     }
 
     public String getNome() {
@@ -44,4 +46,11 @@ public class Produto {
         this.descricao = descricao;
     }
 
+    public int getImagem() {
+        return imagem;
+    }
+
+    public void setImagem(int imagem) {
+        this.imagem = imagem;
+    }
 }

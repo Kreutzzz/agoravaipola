@@ -23,17 +23,14 @@ public class tela_comprar extends AppCompatActivity {
     private ArrayList<Produto> adicionarProduto() {
         ArrayList<Produto> produtos = new ArrayList<Produto>();
         Produto e = new Produto("Escravo",
-                "mae do Stofella");
+                "mae do Stofella",
+                R.drawable.hqdefault);
                 produtos.add(e);
         e = new Produto("Meu cu",
-                "Ta sujo");
+                "Ta sujo",R.drawable.hqdefault );
         produtos.add(e);
-        e = new Produto("sem ideia irmao",
-                "meu dls");
-        produtos.add(e);
-        e = new Produto("aff",
-                "tem mais ainda");
-        produtos.add(e);
+
+
         return produtos;
     }
 

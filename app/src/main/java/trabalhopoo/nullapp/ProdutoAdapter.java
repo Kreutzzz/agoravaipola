@@ -34,7 +34,7 @@ public class ProdutoAdapter extends ArrayAdapter<Produto> {
 
         nomeProduto.setText(elementos.get(position).getNome());
         descricaoProduto.setText(elementos.get(position).getDescricao());
-//        imagem.setImageResource(elementos.get(position).getImagem());
+       imagem.setImageResource(elementos.get(position).getImagem());
         return rowView;
     }
 }
